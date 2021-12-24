@@ -1,21 +1,22 @@
 import React from "react";
 
 function Navigation() {
+    
   return (
     <div className="navigation">
       <ul>
         <li>
           <a href="#">
             <span className="icon">
-              <ion-icon name="logo-apple"></ion-icon>
+                <ion-icon name="logo-react"></ion-icon>
             </span>
-            <span className="title">Business</span>
+            <span className="title">React Dashboard</span>
           </a>
         </li>
         <li>
           <a href="#">
             <span className="icon">
-              <ion-icon name="home-outline"></ion-icon>
+                <ion-icon name="storefront-outline"></ion-icon>
             </span>
             <span className="title">Commerce</span>
           </a>
@@ -23,31 +24,31 @@ function Navigation() {
         <li>
           <a href="#">
             <span className="icon">
-              <ion-icon name="person-outline"></ion-icon>
+            <ion-icon name="business-outline"></ion-icon>
             </span>
-            <span className="title">Service Provider</span>
+            <span className="title">Business</span>
           </a>
         </li>
         <li>
           <a href="#">
             <span className="icon">
-              <ion-icon name="chatbubble-outline"></ion-icon>
+                <ion-icon name="people-outline"></ion-icon>
             </span>
-            <span className="title">Identity Provider</span>
+            <span className="title">Customers</span>
           </a>
         </li>
         <li>
           <a href="#">
             <span className="icon">
-              <ion-icon name="help-outline"></ion-icon>
+                <ion-icon name="card-outline"></ion-icon>
             </span>
-            <span className="title">Claims</span>
+            <span className="title">Sales</span>
           </a>
         </li>
         <li>
           <a href="#">
             <span className="icon">
-              <ion-icon name="settings-outline"></ion-icon>
+                <ion-icon name="reader-outline"></ion-icon>
             </span>
             <span className="title">Consents</span>
           </a>
@@ -55,7 +56,7 @@ function Navigation() {
         <li>
           <a href="#">
             <span className="icon">
-              <ion-icon name="lock-closed-outline"></ion-icon>
+                <ion-icon name="options-outline"></ion-icon>
             </span>
             <span className="title">Preferences</span>
           </a>
