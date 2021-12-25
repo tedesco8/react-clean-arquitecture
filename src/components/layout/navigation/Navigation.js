@@ -1,15 +1,14 @@
 import React from "react";
-import {Navigation, Ul, Li, Ancla, Icon, Title } from "./style"
+import { Navigation, Ul, Li, Ancla, Icon, Title } from "./style";
 
-function NavigationComponent() {
-    
+function NavigationComponent({ toogle }) {
   return (
-    <Navigation className="navigation">
+    <Navigation toogle={toogle}>
       <Ul>
         <Li>
           <Ancla href="#">
             <Icon>
-                <ion-icon name="logo-react"></ion-icon>
+              <ion-icon name="logo-react"></ion-icon>
             </Icon>
             <Title>React Dashboard</Title>
           </Ancla>
@@ -17,7 +16,7 @@ function NavigationComponent() {
         <Li>
           <Ancla href="#">
             <Icon>
-                <ion-icon name="storefront-outline"></ion-icon>
+              <ion-icon name="storefront-outline"></ion-icon>
             </Icon>
             <Title>Commerce</Title>
           </Ancla>
@@ -25,7 +24,7 @@ function NavigationComponent() {
         <Li>
           <Ancla href="#">
             <Icon>
-            <ion-icon name="business-outline"></ion-icon>
+              <ion-icon name="business-outline"></ion-icon>
             </Icon>
             <Title>Business</Title>
           </Ancla>
@@ -33,7 +32,7 @@ function NavigationComponent() {
         <Li>
           <Ancla href="#">
             <Icon>
-                <ion-icon name="people-outline"></ion-icon>
+              <ion-icon name="people-outline"></ion-icon>
             </Icon>
             <Title>Customers</Title>
           </Ancla>
@@ -41,7 +40,7 @@ function NavigationComponent() {
         <Li>
           <Ancla href="#">
             <Icon>
-                <ion-icon name="card-outline"></ion-icon>
+              <ion-icon name="card-outline"></ion-icon>
             </Icon>
             <Title>Sales</Title>
           </Ancla>
@@ -49,7 +48,7 @@ function NavigationComponent() {
         <Li>
           <Ancla href="#">
             <Icon>
-                <ion-icon name="reader-outline"></ion-icon>
+              <ion-icon name="reader-outline"></ion-icon>
             </Icon>
             <Title>Consents</Title>
           </Ancla>
@@ -57,7 +56,7 @@ function NavigationComponent() {
         <Li>
           <Ancla href="#">
             <Icon>
-                <ion-icon name="options-outline"></ion-icon>
+              <ion-icon name="options-outline"></ion-icon>
             </Icon>
             <Title>Preferences</Title>
           </Ancla>

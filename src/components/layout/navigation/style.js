@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const Navigation = styled.div`
   position: fixed;
-  width: 300px;
+  width: ${props => props.toogle ? "80px" : "300px"};
   height: 100%;
   background: var(--blue);
   border-left: 10px solid var(--blue);
