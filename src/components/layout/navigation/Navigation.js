@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import { Navigation, Ul, Li, Ancla, Icon, Title } from "./style";
 
 function NavigationComponent({ toogle, routes }) {
