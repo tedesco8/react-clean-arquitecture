@@ -1,3 +1,9 @@
+export { default as DashboardPage } from "./dashboard";
 export { default as CategorysPage } from "./categorys";
 export { default as ArticlesPage } from "./articles";
-export { default as DashboardPage } from "./dashboard";
+export { default as IncomePage } from "./income";
+export { default as ProvidersPage } from "./providers";
+export { default as SalesPage } from "./sales";
+export { default as ClientsPage } from "./clients";
+export { default as CustomersPage } from "./customers";
+export { default as ReportsPage } from "./reports";
