@@ -31,11 +31,9 @@ function App() {
         <Main toogle={toogle}>
           <TopBar toogle={toogle} setToogle={(e) => setToogle(e)} />
           <div className="main-panel">
-            <div className="content">
-              <BrowserRouter>
-                <Switch>{getRoutes(routes)}</Switch>
-              </BrowserRouter>
-            </div>
+            <BrowserRouter>
+              <Switch>{getRoutes(routes)}</Switch>
+            </BrowserRouter>
           </div>
         </Main>
       </div>
