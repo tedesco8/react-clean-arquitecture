@@ -3,7 +3,6 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
 
 import App from './App';
-import AuthMiddleware from './infrastructure/middlewares/auth.middleware';
 
 import './index.css';
 

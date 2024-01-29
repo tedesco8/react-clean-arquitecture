@@ -17,6 +17,7 @@ const Input = styled.input`
   :focus,
   :hover {
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.15), 0 1px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid green;
   }
   :focus,
   :invalid:required {
