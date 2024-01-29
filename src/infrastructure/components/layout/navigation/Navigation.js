@@ -1,4 +1,3 @@
-import React from "react";
 import { Navigation, Ul, Li, Ancla, Icon, Title, Center } from "./style";
 
 function NavigationComponent({ toogle, routes }) {

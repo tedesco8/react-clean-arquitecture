@@ -12,6 +12,7 @@ export default class ExampleService {
 
   public getAll(callbacks: Callbacks) {
     const { onSuccess, onError } = callbacks;
+
     try {
       this._exampleRepository
         .getAll()

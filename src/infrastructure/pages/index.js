@@ -7,3 +7,4 @@ export { default as SalesPage } from "./sales";
 export { default as ClientsPage } from "./clients";
 export { default as CustomersPage } from "./customers";
 export { default as ReportsPage } from "./reports";
+export { default as SignInPage } from "./auth/sign-in"
